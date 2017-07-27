@@ -27,9 +27,9 @@ Open the file zimbrascript.sh with vim or vi and put the below command on it.and
             #!/bin/bash
             
             for i in `cat zimbraaccounts.txt`
-                do      
+            do      
             	echo "$i"
-                    `zmprov ca $i P@ssw0rd >> /tmp/accountcreated.txt`
-                done
+                `zmprov ca $i P@ssw0rd >> /tmp/accountcreated.txt`
+            done
                 
 Thank you.                
